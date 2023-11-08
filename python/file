@@ -2,8 +2,7 @@ f=rf'run/train/logs/checkpoint/model.{epoch:02d}-{val_loss:.2f}.h5
 f=rf'.run/train/logs/checkpoint/model.{epoch:02d}-{val_loss:.2f}.h5'#eorro
 os.makedirs(f,exist_ok=False)#
 
-csv_logger = rf"run/train/logs/log_{dt_now}.csv"
-csv_logger=CSVLogger(csv_logger,separator=',',append=False)
+
 
 
 
