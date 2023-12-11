@@ -19,3 +19,6 @@ def normalizemaxmin(img,min,max):
 img[np.isnan(img)]=-1
 #%%
 image=np.concatenate((imgband,imgindex),axis=-1)
+## reshape
+# img:shape[60,7,7]
+img.reshape((6,10,-1) # [6,10,49]
