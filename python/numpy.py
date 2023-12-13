@@ -23,6 +23,5 @@ image=np.concatenate((imgband,imgindex),axis=-1)
 # img:shape[60,7,7]
 img.reshape((6,10,-1) # [6,10,49]
 # slice
-
 img[0:t,0:c-1,...] is right
 img[...,0:c-1,...] is wrong .one index only has one ...
